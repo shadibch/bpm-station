@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" id="sample-diagram" targetNamespace="http://bpmn.io/schema/bpmn" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd">
+  <bpmn2:process id="Container_1" isExecutable="false">
+    <bpmn2:subProcess id="Container_1dt2t1y" name="OP">
+      <bpmn2:task id="Station_0yf47kq" name="Station1&#10;&#10;" />
+      <bpmn2:task id="Station_0iiww0x" name="Station2&#10;&#10;" />
+    </bpmn2:subProcess>
+  </bpmn2:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Container_1">
+      <bpmndi:BPMNShape id="Container_1dt2t1y_di" bpmnElement="Container_1dt2t1y" isExpanded="true">
+        <dc:Bounds x="164" y="42" width="350" height="200" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_0yf47kq_di" bpmnElement="Station_0yf47kq">
+        <dc:Bounds x="208" y="58" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_0iiww0x_di" bpmnElement="Station_0iiww0x">
+        <dc:Bounds x="208" y="152" width="100" height="80" />
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn2:definitions>

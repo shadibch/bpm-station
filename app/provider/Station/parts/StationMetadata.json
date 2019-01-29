@@ -1,0 +1,26 @@
+[
+        {
+          "name": "TplFile",
+          "isAttr": true,
+          "type": "String",
+		  "label":"TplFile"
+        },
+		{
+		  "label":"IpAddress",
+          "name": "IpAddress",
+          "isAttr": true,
+          "type": "String"
+        },
+		{
+		"label":"paramStrings",
+          "name": "paramStrings",
+          "isAttr": true,
+          "type": "String"
+        },
+		{
+		"label":"DeviceType",
+		"name":"DeviceType",
+		"selectOptions" : [{"name":"VAB","value":"VAB"},{"name":"B","value":"B"},{"name":"C","value":"C"}],
+		"type": "String"
+		}
+]

@@ -1,0 +1,89 @@
+{
+  "name": "Station",
+  "prefix": "station",
+  "uri": "http://station",
+  "xml": {
+    "tagAlias": "lowerCase"
+  },
+  "associations": [],
+  "types": [
+  {
+      
+	  "name": "Parameter",
+      "superClass": [
+        "Element"
+      ],
+      "properties": [
+	  {
+		  "name":"name",
+	      "type": "String",
+          "isAttr": true
+	  },
+        {
+          "name": "type",
+          "type": "String",
+          "isAttr": true
+        },
+		{
+          "name": "id",
+          "type": "String",
+          "isAttr": true
+        }
+      ]
+    },
+    {
+      "name": "Station",
+      "extends": [
+        "bpmn:Task"
+      ],
+      "properties": [
+	  {
+		"name":"Parameter",
+		"type":"Parameter",
+		"isMany":true
+	  },
+        {
+		  "name":"TplFile",
+	      "type": "String",
+          "isAttr": true
+	  },
+        {
+          "name": "IpAddress",
+          "type": "String",
+          "isAttr": true
+        },
+        {
+          "name": "DeviceType",
+          "type": "String",
+          "isAttr": true
+        },
+        {
+          "name": "paramStrings",
+          "type": "String",
+          "isAttr": true
+        },
+		{
+          "name": "line",
+          "isAttr": true,
+          "type": "String"
+        },
+		{
+          "name": "value",
+          "isAttr": true,
+          "type": "String"
+        },
+		{
+          "name": "description",
+          "isAttr": true,
+          "type": "String"
+        },
+		{
+          "name": "type",
+          "isAttr": true,
+          "type": "String"
+        }
+		 
+      ]
+    }
+  ]
+}
